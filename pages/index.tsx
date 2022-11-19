@@ -1,24 +1,22 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Meta from '../meta/meta'
+import { Flex, Box, Heading } from "@chakra-ui/react"
+import Navbar from '../layout/navbar'
 
 export default function Home() {
+  const pageTitle = 'トップ'
+  const description = '幻声航路 - 水上晶, Recursive Vision[s] - Aquila Minakami'
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>幻声航路</title>
-        <meta name="description" content="幻声航路 - 水上晶" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h2>記事一覧</h2>
-      </main>
-
-      <footer className={styles.footer}>
-        <p>
-          by 水上晶
-        </p>
-      </footer>
-    </div>
+    <>
+      <Meta pageTitle={ pageTitle } description={description} />
+      <Box>
+        <Heading as='h2' size='l' noOfLines={1} mb="40px">
+          声に出して読みたい遠未来——the future [ai] voiced——
+        </Heading>
+        <Box display="flex" justifyContent="center" alignItems="center" fontSize="24px">
+          <Navbar></Navbar>
+        </Box>
+      </Box>
+    </>
   )
 }
