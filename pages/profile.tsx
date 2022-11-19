@@ -18,7 +18,7 @@ export default function Home() {
           </Heading>
           <Text p="10px 0">HN: Aquila Minakami（水上晶） / orifuji</Text>
           <Text p="10px 0">Job: IT Engineer(Web Backend, Frontend, Infrastructure) / Facilitator / Scholar(Amateur)</Text>
-          <Text p="10px 0">Hobbies: Philosophy / Game / Anime / Swimming / DTM</Text>
+          <Text p="10px 0">Hobbies: Philosophy / Game / Anime / Swimming / DTM / SF</Text>
           <Text p="10px 0">Affiliations: ROXX inc, Staff / CULTIBASE Lab Member</Text>
         </Box>
         <Box mt="24px" lineHeight="28px" display="flex" flexFlow="column" fontSize="24px">
