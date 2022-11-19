@@ -10,7 +10,7 @@ export default function Home() {
       <Meta pageTitle={ pageTitle } description={description} />
       <Box display="flex" flexFlow="column" justifyContent="flex-start">
         <Heading as='h1' size='2xl' noOfLines={1} mb="32px">
-          Profile
+          Profile of Site Owner
         </Heading>
         <Box mt="24px" lineHeight="28px" fontSize="24px">
           <Heading as='h1' size='xl' noOfLines={1} mb="32px">
