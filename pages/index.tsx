@@ -1,6 +1,5 @@
 import Meta from '../meta/meta'
-import { Flex, Box, Heading } from "@chakra-ui/react"
-import Navbar from '../layout/navbar'
+import { Link, Stack, Box, Heading } from "@chakra-ui/react"
 
 export default function Home() {
   const pageTitle = 'トップ'
@@ -11,10 +10,21 @@ export default function Home() {
       <Meta pageTitle={ pageTitle } description={description} />
       <Box>
         <Heading as='h2' size='l' noOfLines={1} mb="40px">
-          声に出して読みたい遠未来——the future [ai] voiced——
+        ———星海を之く道
         </Heading>
-        <Box display="flex" justifyContent="center" alignItems="center" fontSize="24px">
-          <Navbar></Navbar>
+        <Heading as='h2' size='l' noOfLines={1} mb="40px">
+          あるいはそれは、声に出して読まれた遠未来——the future [ai] voiced——
+        </Heading>
+        <Heading as='h2' size='l' noOfLines={1} mb="40px">
+          あるいはそれは、かつて編まれた詩たちの墓標
+        </Heading>
+        <Heading as='h2' size='l' noOfLines={1} mb="80px">
+          あるいはそれは、相互理解という夢
+        </Heading>
+        <Box display="flex" justifyContent="space-around" fontSize="20px">
+          <Link href="/article">Articles</Link>
+          <Link href="/profile">Profile</Link>
+          <Link href="/contact">Contact</Link>
         </Box>
       </Box>
     </>

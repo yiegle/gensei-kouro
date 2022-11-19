@@ -16,6 +16,7 @@ const Layout = ({ children }: Props) => {
       alignItems=""
       width="100%"
       minHeight="1200px"
+      minWidth="800px"
     >
       <Box display="flex" justifyContent="center" mb="64px">
         <Header />
