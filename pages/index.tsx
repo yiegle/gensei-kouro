@@ -4,7 +4,7 @@ import Navbar from '../layout/navbar'
 
 export default function Home() {
   const pageTitle = 'トップ'
-  const description = '幻声航路 - 水上晶, Recursive Vision[s] - Aquila Minakami'
+  const description = '相互参照のシナスタジア、幻視される<声>'
 
   return (
     <>
